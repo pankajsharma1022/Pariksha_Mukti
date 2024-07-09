@@ -16,6 +16,8 @@ app.config['MYSQL_DB'] = 'PMREGISTER'
 mysql = MySQL(app)
 
 @app.route('/')
+def index():
+ return render_template('index.html')
 @app.route('/login', methods=['GET','POST'])
 def login():
     msg = ''
