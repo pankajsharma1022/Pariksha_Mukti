@@ -3,12 +3,25 @@ padding:0px;
 margin:0px;
 color:black;
 }
+body{
+    background-color: white;
+}
 #navbar{
-height:50px;
-background-color:rgb(144, 239, 144);
+height:60px;
+background-color:#74c69d;
+padding-top: 25px;
+font-size: medium;
 }
 a{
     text-decoration: none;
-    margin-right:200px;
-    margin-top:100px;
+    margin-right:150px;
+}
+#search{
+    margin-left:100px;
+}
+#searchbutton{
+    background-color:#d9ed92;
+}
+#logo{
+    font-size:large;
 }
