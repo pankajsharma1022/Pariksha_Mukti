@@ -25,3 +25,17 @@ a{
 #logo{
     font-size:large;
 }
+.wrapper{
+display:flex;
+flex-direction:column;
+min-height: 100vh;
+
+}
+footer{
+text-align:center;
+background-color:#74c69d;
+padding:10px;
+position:relative;
+bottom:0;
+width:100%;
+}
