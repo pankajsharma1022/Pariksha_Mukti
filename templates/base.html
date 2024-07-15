@@ -5,19 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ParikshaMukti.in</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/cs1.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
   <!-- this is for the navbar  -->
- <div id="navbar" >
-   <a id="logo" href="#">ParikshaMukti.in</a>
-   <a class="navlink" href="#">Home</a>
-   <a class="navlink" href="#">About Us</a>
-   <a class="navlink" href="#">Contact Us</a>
-   <a class="navlink" href="{{url_for('register')}}">SignUp</a>
-   <input id="search"placeholder="Search University">
-   <button id="searchbutton">Search</button>
-   
- </div>
+<header>
+  <div class="navbar">
+    <div class="nav-logo border">
+      <div class="logo">
+        <p>ParikshaMukti.in</p>
+      </div>
+    </div>
+
+    <div class="search-bar">
+      <select class="search-select">
+        <option>Select State</option>
+      </select>
+        <input type="text" placeholder="Search Universities" class="search-input">
+      <div class="search-icon">
+        <i class="fa-brands fa-searchengin"></i>
+      </div>
+    </div>
+    <!-- this is for login register -->
+    <div class="nav-signin">
+      <a href="{{url_for('register')}}"><p><span>Hello, Sign in!</span></p>
+      <p class="nav-second">Accounts &Lists</p></a>
+    </div>
+
+  </div>
+
+  <div class="panel">
+
+  </div>
+</header>
       <!-- This is the end of navbar -->
 
   <!-- this is for alert -->
@@ -29,9 +49,7 @@
     {%block content %}
  {# tempalate inserted here #}
 {%endblock%}
-<div class="wrapper">
-  <footer>This is the footer</footer>
-</div>
+
   </body>
 </html>
 
