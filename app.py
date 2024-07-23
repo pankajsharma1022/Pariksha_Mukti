@@ -71,6 +71,14 @@ def register():
         msg = 'Please fill out the form !'
     return render_template('register.html', msg = msg)         
 
+@app.route('/aktupaper')
+def aktupaper():
+    return render_template('aktupaper.html')
+
+@app.route('/rtupaper')
+def rtupaper():
+    return render_template('rtupaper.html')
+
 
 if __name__ == '__main__':
     app.run(debug=True)

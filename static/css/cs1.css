@@ -90,4 +90,32 @@ color:#292C7B;
 a{
 text-decoration:none;
 }
+/* panel starts here */
+.panel{
+height:130px;
+background-color:#FAF9F6;
+border-bottom:1px outset #FFFFFF;
+display:flex;
+justify-content:space-evenly;
+align-items:center;
+}
+.panel-box1{
+text-align:center;
+display:flex;
+justify-content:center;
+margin-right:110px;
+}
+
+.panel-box2{
+text-align:center;
+}
+
+.panel-box3{
+text-align:center;
+margin-left:110px;
+}
+
+h3{
+color:#292C7B;
+}
 
