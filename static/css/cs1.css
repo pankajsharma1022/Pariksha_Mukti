@@ -12,6 +12,7 @@ border-bottom:1px outset #FFFFFF;
 display:flex;
 justify-content:space-evenly;
 align-items:center;
+
 }
 
 .nav-logo{
@@ -37,8 +38,8 @@ border: 1px solid #292C7B;
 }
 
 .search-bar{
-display:flex;
-justify-content:space-evenly;
+/*display:flex;
+justify-content:space-evenly; */
 width:620px;
 height:40px;
 border-radius:4px;
@@ -47,9 +48,17 @@ border-radius:4px;
 .search-bar:hover{
 border: 1px solid #292C7B;
 }
+.search-form{
+display:flex;
+justify-content:space-evenly;
+
+}
+/*
 .search-select{
 color:#292C7B;
 text-align:center;
+width:19rem;
+height:2.5rem;
 border-top-left-radius:8px;
 border-bottom-left-radius:8px;
 border:none;
@@ -72,7 +81,18 @@ background-color:#6495ED;
 border-top-right-radius:8px;
 border-bottom-right-radius:8px;
 }
+button{
+background:transparent;
+border:0;
+outline:0;
+}
 
+button .fa-solid{
+cursor:pointer;
+width:20px;
+font-size:18px;
+}
+*/
 /** for login **/
 .nav-signin{
 text-align:center;
@@ -117,5 +137,24 @@ margin-left:110px;
 
 h3{
 color:#292C7B;
+}
+
+.paraclass1{
+margin-left:85px;
+font-size:1.2rem;
+margin-top:50px;
+}
+.para1{
+margin-bottom:50px;
+}
+footer{
+height:52.2px;
+background-color: #FAF9F6;
+border-top:1px outset #FFFFFF;
+position:relative;
+padding:10px 10px 0px 10px;
+bottom: 0;
+width:100%;
+text-align:center;
 }
 

@@ -21,13 +21,19 @@
         </div>
 
         <div class="search-bar">
-            <select class="search-select">
-                <option>Select State</option>
-            </select>
-            <input class="search-input" placeholder="Search Universities" type="text">
+            <form class="search-form" action="/search" method="get">
+                <select name="category" class="dropdown">
+                    <option value="category1">Category</option>
+                    <option value="category2">RTU Kota</option>
+                    <option value="category3">AKTU</option>
+                </select>
+                <input type="text" name="query" class="search-bar" placeholder="Type to Search">
+                <input type="submit" value="search" class="search-button">
+            </form>
+            <!--- <input class="search-input" placeholder="Type to Search" type="text">
             <div class="search-icon">
-                <i class="fa-brands fa-searchengin"></i>
-            </div>
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>  --->
         </div>
         <!-- this is for login register -->
         <div class="nav-signin">
@@ -53,11 +59,36 @@
 
     </div>
 </header>
-<!-- This is the end of navbar -->
+<div class="paraclass1">
+    <p class="para1">Welcome to ParikshaMukti, a comprehensive platform designed to facilitate academic collaboration and resource sharing among students
+        from various universities.<br><br> Our website provides access to a vast collection of previous years' exam papers from numerous institutions, allowing students to
+        prepare effectively for their upcoming exams.
+        <br><br>Beyond just an archive, our platform encourages student interaction and collaboration through project sharing
+        features, enabling users to work together on academic and extracurricular projects.
+        <br><br>Additionally, our marketplace feature offers a convenient space for buying and selling notes, further supporting the academic journey. Embracing the open-source ethos, we invite contributions from students and educators alike to
+        continuously expand and improve our repository, ensuring it remains a valuable and evolving educational resource for all.</p>
+    <P class="para1">from various universities.<br><br> Our website provides access to a vast collection of previous years' exam papers from numerous institutions, allowing students to
+        prepare effectively for their upcoming exams.
+        <br><br>Beyond just an archive, our platform encourages student interaction and collaboration through project sharing
+        features, enabling users to work together on academic and extracurricular projects.
+        <br><br>Additionally, our marketplace feature offers a convenient space for buying and selling notes, further supporting the academic journey. Embracing the open-source ethos, we invite contributions from students and educators alike to
+        continuously expand and improve our repository, ensuring it remains a valuable and evolving educational resource for all.</P>
+    <p class="para1">
+        from various universities.<br><br> Our website provides access to a vast collection of previous years' exam papers from numerous institutions, allowing students to
+        prepare effectively for their upcoming exams.
+        <br><br>Beyond just an archive, our platform encourages student interaction and collaboration through project sharing
+        features, enabling users to work together on academic and extracurricular projects.
+        <br><br>Additionally, our marketplace feature offers a convenient space for buying and selling notes, further supporting the academic journey. Embracing the open-source ethos, we invite contributions from students and educators alike to
+        continuously expand and improve our repository, ensuring it remains a valuable and evolving educational resource for all.
+    </p>
+</div>
 
-<!-- this is for alert -->
-
-<!-- this is end of alert -->
+<footer>
+    <div>
+        Copyright &copy<br>
+        Created by Pankaj Sharma
+    </div>
+</footer>
 
 
 {%block content %}
