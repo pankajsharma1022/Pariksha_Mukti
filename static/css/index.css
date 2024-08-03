@@ -7,5 +7,42 @@ border:border-box;
 
 body{
 background-color:#FFFFFF;
+background-image:url(../images/img3.png);
+-webkit-background-size:cover;
+background-size:cover;
+background-position:center center;
+background-repeat:no-repeat;
+}
 
+.aboutus{
+text-align:inherit;
+margin-left:70px;
+margin-top:50px;
+font-size:1.8rem;
+color:#292C7B;
+border:border-box;
+
+/*background-color:pink;*/
+}
+.vision{
+text-align:inherit;
+margin-left:70px;
+margin-top:30px;
+font-size:1.8rem;
+color:#292C7B;
+border:border-box;
+}
+.anchor{
+margin-left:60px;
+margin-right:50px;
+/*background-color:yellow;*/
+font-family:source sans Pro, sans-serif;
+letter-spacing:.1rem;
+text-align:justify;
+line-height:1.6180339888;
+font-weight:400;
+border:border-box;
+}
+#bold{
+color:#144272
 }
