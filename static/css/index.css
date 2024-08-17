@@ -5,16 +5,92 @@ font-family:Arial;
 border:border-box;
 }
 
-body{
+/* body{
 background-color:#FFFFFF;
 background-image:url(../images/img3.png);
 -webkit-background-size:cover;
 background-size:cover;
 background-position:center center;
 background-repeat:no-repeat;
+} */
+.mainn{
+display:flex;
 }
 
-.aboutus{
+.exam-content{
+height:800px;
+width:300px;
+margin-left:15px;
+margin-top:20px;
+margin-bottom:20px;
+background-color:#FAF9F6;
+border:border-box;
+
+}
+.university-names{
+color:#292C7B;
+padding:10px;
+}
+
+.university-names li{
+list-style-type:none;
+padding:5px;
+}
+
+.university-names a{
+text-decoration:none;
+}
+
+.about{
+height:500px;
+width:800px;
+margin-top:20px;
+margin-left:20px;
+/*background-color:#FAF9F6;*/
+border:border-box;
+}
+
+.abouth{
+padding-top:15px;
+height:50px;
+width:800px;
+color:#292C7B;
+border-bottom:1px outset #FFFFFF;
+}
+
+.aboutc{
+font-size:1.3rem;
+line-height:1.2;
+word-spacing:0.2rem;
+margin-top:8px;
+color:#292C7B;
+}
+
+.mission{
+padding-top:20px;
+height:50px;
+margin-top:10px;
+border-bottom:1px outset #FFFFFF;
+color:#292C7B;
+}
+.missionc{
+font-size:1.3rem;
+line-height:1.2;
+word-spacing:0.2rem;
+margin-top:8px;
+color:#292C7B;
+}
+
+
+.add{
+background-color:pink;
+margin-top:20px;
+margin-left:200px;
+height:200px;
+width:180px;
+}
+
+/*.aboutus{
 text-align:inherit;
 margin-left:70px;
 margin-top:50px;
@@ -22,9 +98,9 @@ font-size:1.8rem;
 color:#292C7B;
 border:border-box;
 
-/*background-color:pink;*/
+background-color:pink;*/
 }
-.vision{
+/*.vision{
 text-align:inherit;
 margin-left:70px;
 margin-top:30px;
@@ -32,17 +108,20 @@ font-size:1.8rem;
 color:#292C7B;
 border:border-box;
 }
+
 .anchor{
 margin-left:60px;
 margin-right:50px;
-/*background-color:yellow;*/
+background-color:yellow;
 font-family:source sans Pro, sans-serif;
 letter-spacing:.1rem;
 text-align:justify;
 line-height:1.6180339888;
 font-weight:400;
-border:border-box;
+border:border-box;*/
 }
-#bold{
-color:#144272
-}
+
+/* #bold{
+color:#144272;
+} */
+

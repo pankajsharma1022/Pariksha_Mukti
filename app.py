@@ -77,30 +77,52 @@ def register():
     return render_template('register.html', msg=msg)
 
 
-@app.route('/page1')
-def aktupaper():
-    return render_template('aktupaper.html')
+@app.route('/rtu')
+def rtu():
+    return render_template('rtu.html')
 
 
-@app.route('/page2')
-def rtupaper():
-    return render_template('rtupaper.html')
+@app.route('/aktu')
+def aktu():
+    return render_template('aktu.html')
 
-@app.route('/search')
-def search():
-    query = request.args.get('query').lower()
-    dropdown_options = {
-        'category1':'page',
-        'category2':'page1',
-        'category3':'page2'
+@app.route('/amity')
+def amity():
+    return render_template('amity.html')
 
-    }
-    if query in dropdown_options:
-        msg="Valid page"
-        return render_template(dropdown_options[query],msg=msg)
-    else:
-        msg="invalid page"
-        return render_template('index.html',msg=msg)
+@app.route('/jecrc')
+def jecrc():
+    return render_template('jecrc.html')
+
+@app.route('/poornima')
+def poornima():
+    return render_template('poornima.html')
+
+@app.route('/lnm')
+def lnm():
+    return render_template('lnm.html')
+
+@app.route('/manipal')
+def manipal():
+    return render_template('manipal.html')
+
+@app.route('/bits')
+def bits():
+    return render_template('bits.html')
+
+@app.route('/birla')
+def birla():
+    return render_template('birla.html')
+
+@app.route('/banasthali')
+def banasthali():
+    return render_template('banasthali.html')
+
+@app.route('/sgv')
+def sgv():
+    return render_template('sgv.html')
+
+
 
 if __name__ == '__main__':
     app.run(debug=True)
